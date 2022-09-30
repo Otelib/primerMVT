@@ -54,7 +54,7 @@ ROOT_URLCONF = 'primerMVT.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [f"{BASE_DIR}/primerMVT/Familia/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

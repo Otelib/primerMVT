@@ -6,8 +6,8 @@ from Familia.models import Familiar
 # Create your views here.
 
 def show_home(request):
-    familiar1 = Familiar(nombre = "Marcelo", edad = 37,  nacimiento = "1985-03-26")
-    familiar2 = Familiar(nombre = "Dario", edad = 39,  nacimiento = "1983-05-13")
+    familiar1 = Familiar(nombre = "Marcelo", edad = 37,  nacimiento = "1985-05-23")
+    familiar2 = Familiar(nombre = "Dario", edad = 39,  nacimiento = "1983-07-18")
     familiar3 = Familiar(nombre = "Juliana", edad = 32,  nacimiento = "1991-09-20")
     familiar1.save()
     familiar2.save()
